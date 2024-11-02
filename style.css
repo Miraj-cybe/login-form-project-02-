@@ -1,0 +1,63 @@
+body{
+    font-family:"poppins", sans-serif;
+    margin: 0px;
+    text-align:left;
+ 
+}
+.contact{
+    width: 80%;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 5%;
+    
+}
+.contact h2{
+
+    font-weight: 30px;
+    margin-bottom: 0px;
+
+}
+.contact p{
+    color: rgb(148, 148, 148);
+}
+.contact form{
+   
+    margin-top: 25px;
+    margin-bottom: 15px;
+    
+}
+.child_form{
+    width: 100%;
+
+}
+
+.child_form label{
+    color: rgb(44, 41, 41);
+    display: block;
+    text-align:left;
+    margin-bottom: 5px;
+  
+}
+.child_form input,.child_form select,.child_form textarea{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 94%;
+    padding: 8px 3%;
+    font-family: "poppins", sans-serif;
+
+}
+.child_form select{
+    width: 100%;
+}
+.child_form input[type='button'] {
+    background :rgb(72, 72, 180);
+    margin-top: 20px;
+    color: #fff;
+}
+.child_form:last-child{
+    margin-top: 0px;
+    
+}
+.child_form input[type='button']:hover{
+    color: turquoise;
+}
